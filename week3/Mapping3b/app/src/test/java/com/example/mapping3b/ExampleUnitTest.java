@@ -1,4 +1,4 @@
-package com.example.mapping2;
+package com.example.mapping3b;
 
 import org.junit.Test;
 

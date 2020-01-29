@@ -1,4 +1,4 @@
-package com.example.mapping2;
+package com.example.mapping3b;
 
 import android.support.v7.app.AppCompatActivity;
 import android.content.Intent;
@@ -12,7 +12,9 @@ import org.osmdroid.config.Configuration;
 import org.osmdroid.tileprovider.tilesource.TileSourceFactory;
 import org.osmdroid.util.GeoPoint;
 import org.osmdroid.views.MapView;
-public class MainActivity extends AppCompatActivity {
+
+public class MainActivity extends AppCompatActivity
+{
 
     MapView mv;
 
@@ -35,4 +37,3 @@ public class MainActivity extends AppCompatActivity {
         mv.getController().setCenter(new GeoPoint(51.05,-0.72));
     }
 }
-
